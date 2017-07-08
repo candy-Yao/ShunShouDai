@@ -1,0 +1,203 @@
+/**detail.wxss**/
+/* 父盒子 */
+.father {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 1100rpx;
+	flex: 1;
+}
+/* 儿子 */
+.son1 {
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+	padding: 26rpx 20rpx 20rpx 20rpx;
+}
+/* 孙子*/
+.box1 {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+}
+.box2 {
+	flex: 3;
+}
+/* 用户名 */
+.username {
+	font-size: 30rpx;
+	color: #555;
+}
+/* 寝室地址*/
+.address {
+	font-size: 24rpx;
+	color: #888;
+}
+.box3 {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+/* 发布时间 */
+.time {
+	font-size: 28rpx;
+	color: #777;
+}
+/* 帮 */
+.box3 view {
+	margin-top: 14rpx;
+	padding: 2rpx;
+	color: #fff;
+	font-size: 30rpx;
+	background-color: #0cf;
+}
+/* 二儿子 */
+.son2 {
+	flex: 3;
+	padding: 30rpx 20rpx 20rpx 20rpx;
+	display: flex;
+	flex-direction: column;
+	border-bottom: 14rpx solid #B2BABB;
+	border-top: 14rpx solid #B2BABB; 
+}
+/* 需求 */
+.son2_box1 {
+	display: flex;
+	flex: 1;
+	flex-direction: row;
+	align-items: center;
+	font-size: 30rpx;
+	color: #555;
+}
+/* 需求小图标 */
+.son2_box1 image {
+	padding-right: 10rpx;
+}
+/* 目的地 */
+.son2_box2 {
+	display: flex;
+	flex: 1;
+	flex-direction: row;
+	align-items: center;
+	font-size: 30rpx;
+	color: #555;
+}
+/* 目的地小图标 */
+.son2_box2 image {
+	padding-right: 10rpx;
+}
+/* 进度条大框架 */
+.son2_box3 {
+	display: flex;
+	flex: 2;
+	flex-direction: column;
+	justify-content: center;
+}
+/* 进度条 */
+.son2_box3_1 {
+	display: flex;
+	flex: 2;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: -20rpx;
+}
+/* 进度条文字框 */
+.son2_box3_2 {
+	display: flex;
+	flex: 1;
+	flex-direction: row;
+	justify-content: center;
+	margin: 0 30rpx 0 34rpx;
+}
+/* 进度条文字 */
+.son2_box3_2 text {
+	display: flex;
+	flex: 1;
+	justify-content: center;
+	font-size: 30rpx;
+}
+/* 进度条左边的短条 */
+.pro1 {
+	width: 60rpx;
+	height: 16rpx;
+	background-color: #ccc;
+	border-top-left-radius: 10rpx;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 10rpx; 
+}
+/* 进度条数字 */
+.pro2 {
+	width: 40rpx;
+	height: 40rpx;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 40rpx;
+	text-align: center;
+}
+/* 进度条长条 */
+.pro3 {
+	width: 120rpx;
+	height: 16rpx;
+	background-color: #ccc; 
+}
+/* 进度条右边的短条 */
+.pro4 {
+	width: 60rpx;
+	height: 16rpx;
+	background-color: #ccc;
+	border-top-left-radius: 0;
+	border-top-right-radius: 10rpx; 
+	border-bottom-right-radius: 10rpx; 
+	border-bottom-left-radius: 0;
+}
+/* 进度条被激活 */
+.active {
+	background-color: #0cf;
+}
+/* 进度条文字被激活 */
+.active_text {
+	color: #0cf;
+}
+/* 三儿子 */
+.son3 {
+	flex: 5;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	padding: 30rpx 20rpx 20rpx 20rpx;
+}
+/* 评论框 */
+.son3_box {
+	border-bottom: 1px dashed #ccc;
+	display: flex;
+	flex-direction: column;
+}
+/* 用户名及时间 */
+.son3_user {
+	display: flex;
+	flex: 1;
+	flex-direction: row;
+	color: #555;
+	font-size: 30rpx;
+}
+/* 用户名 */
+.son3_username {
+	display: flex;
+	flex: 5;
+}
+/* 时间 */
+.son3_time {
+	display: flex;
+	flex: 2;
+}
+/* 评论的内容 */
+.son3_comm {
+	display: flex;
+	flex: 1;
+	color: #888;
+	font-size: 28rpx;
+	margin-left: 20rpx;
+}

@@ -1,0 +1,50 @@
+<!-- *****************************
+     *******My.wxml********
+     *******作者：姚星如*********
+     *****修改时间：20.7/5/18***** -->
+
+<view class="father">
+	<view class="son1">		
+		<image style="width: 100rpx; height: 100rpx;" mode="scaleToFill" src="../../images/01.jpg" binderror="" bindload="" class="User_icon"></image>
+		<image style=" width: 50rpx; height: 50rpx;" mode="scaleToFill" src="../../images/switch.jpg" binderror="" bindload="" class="switch"></image>
+		<navigator url="#" hover-class="navigator-hover" class="login">登录/注册</navigator>
+	</view>
+	<view class="son2">
+		<view class="icon1">
+			<!--提示信息图标-->
+			<icon type="info_circle" size="40"/>
+			<navigator url="#" hover-class="navigator-hover">进行中</navigator>		
+		</view>
+		<view class="icon1">
+			<!--带圆的等待图标-->
+			<icon type="waiting_circle" size="40"/>
+			<navigator url="#" hover-class="navigator-hover">待接中</navigator>
+		</view>
+		<view class="icon1">
+			<!--带圆的成功图标-->
+			<icon type="success_circle" size="40"/>
+			<navigator url="#" hover-class="navigator-hover">已发布</navigator>
+		</view>
+		<view class="icon2">
+			<!--改变颜色的success-->
+			<icon type="success_circle" size="40" color="red"/>
+			<navigator url="#" hover-class="navigator-hover">已接收</navigator>
+		</view>
+	</view>
+	<view class="son3">
+		<view class="section1">
+			<image style="width: 50rpx;height: 50rpx;" mode="scaleToFill" src="../../images/icon3.png" binderror="" bindload=""></image>
+			
+			<picker range="{{problems}}" value="{{index}}">
+				<view>常见问题 {{problems[index]}}</view>
+			</picker>
+		</view>
+		<view class="section1">
+			<image style="width: 50rpx;height: 50rpx;" mode="scaleToFill" src="../../images/06.png" binderror="" bindload=""></image>反馈
+		</view>
+		<view class="section2">
+			<image style="width: 50rpx;height: 50rpx;" mode="scaleToFill" src="../../images/icon2.png" binderror="" bindload=""></image>关于我们
+		</view>
+	</view>
+</view>
+

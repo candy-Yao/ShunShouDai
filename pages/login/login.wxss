@@ -1,0 +1,45 @@
+/**login.wxss**/
+.container {
+	margin-top: 200rpx;
+}
+input {
+	border: 1px solid #666;
+	border-radius: 6rpx;
+	margin-bottom: 20rpx;
+}
+/* 输入框中的占位符 */
+.input-placeholder {
+	font-size: 26rpx;
+	margin-left: 10rpx;
+	color: #bbb;
+}
+/* 用户名 */
+.UserNameInput {
+	width: 600rpx;
+	box-flex:1;
+}
+/* 复选框 */
+.checkbox {
+	margin-bottom: 20rpx;
+	font-size: 26rpx;
+	color: #888;
+	font-weight: 600;
+	text-align: center;
+	vertical-align: middle;
+}
+/* 提交 */
+.Submit {
+	line-height: 1.4rem;
+	margin-bottom: 20rpx;
+}
+/* 提示文字 */
+.reminder {
+	font-size: 26rpx;
+	display: inline;
+}
+/* 注册框 */
+navigator {
+	display: inline;
+	margin-right: 180rpx;
+	color: #1AAD19;
+}

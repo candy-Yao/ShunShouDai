@@ -1,0 +1,117 @@
+/**My.wxss**/
+/* 父盒 */
+.father {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	width: 100%;
+	height: 1000rpx;
+		
+}
+/* 儿子一 */
+.son1{
+	display: flex;
+	flex: 2;
+    overflow: auto;		
+	background-color: #00CCFF;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+/* 用户头像 */
+.User_icon {
+	width:100rpx;
+    height:100rpx;
+    border-radius:50%; 
+    overflow:hidden;
+}
+/* 用户开关 */
+.switch {
+	position: absolute;
+	top: 140rpx;
+	right: 40rpx;
+}
+/* 儿子一 */
+.son1 {
+	font-size: 30rpx;
+	color: #F7F9F9;
+	font-weight: bold;
+}
+/* 儿子二 */
+.son2{
+	flex: 1;
+    overflow: auto;
+	display: flex;
+	flex-direction: row;
+}
+/* 图标框*/
+.icon1 {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	align-items: center;
+	justify-content: center;
+	border-right: 2px solid #B2BABB; 
+	border-bottom: 14rpx solid #B2BABB;
+}
+/* 图标 */
+.icon1 icon {
+	padding-bottom: 10rpx;
+}
+/* 图标导航 */
+.icon1 navigator {
+	font-size: 30rpx;
+	color: #777;
+	font-weight: 600;
+}
+.icon2 {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	align-items: center;
+	justify-content: center;
+	border-bottom: 14rpx solid #B2BABB;
+}
+/* 图标 */
+.icon2 icon {
+	padding-bottom: 10rpx;
+}
+/* 图标导航 */
+.icon2 navigator {
+	font-size: 30rpx;
+	color: #777;
+	font-weight: 600;
+}
+
+/* 儿子三 */
+.son3{
+	flex: 2;
+    overflow: auto;
+	display: flex;
+	flex-direction: column;
+	padding: 40rpx;
+}
+/* 常见问题 */
+.section1 {
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+	align-items: center;
+	justify-content: flex-start;
+	border-bottom: 4rpx solid #B2BABB;
+}
+/* 设置图标与文字间的间隙 */
+.section1 image {
+	padding-right: 8rpx;
+}
+.section2 {
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+	align-items: center;
+	justify-content: flex-start;
+}
+.section2 image {
+	padding-right: 8rpx;
+}
+

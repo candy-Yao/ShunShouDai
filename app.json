@@ -1,0 +1,48 @@
+{
+  "pages":[
+    "pages/My/My",
+    "pages/detail/detail",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+
+    
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor":"#00CCFF",
+    "backgroundTextStyle":"light",
+    "navigationBarTitleText": "默认页面",
+    "enablePullDownRefresh":"true",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar":{
+    "color":"#ccc",
+    "selectedColor":"red",
+    "backgroundColor":"white",
+    "position":"bottom",
+    "borderStyle":"black",
+    "list":[
+       {
+        "pagePath":"pages/detail/detail",
+        "text":"详情",
+        "iconPath":"images/add.png",
+        "selectedIconPath":"images/add_active.png"
+      },
+      {
+        "pagePath":"pages/My/My",
+        "text":"我的",
+        "iconPath":"images/my.png",
+        "selectedIconPath":"images/my-active.png"
+      },
+      {
+        "pagePath":"pages/login/login",
+        "text":"登录",
+        "iconPath":"images/firstpage.png",
+        "selectedIconPath":"images/firstpage-active.png"
+      }
+    ]
+  }
+}

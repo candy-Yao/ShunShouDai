@@ -1,0 +1,41 @@
+/**register.wxss**/
+input {
+	border: 1px solid #666;
+	border-radius: 6rpx;
+	margin-bottom: 20rpx;
+}
+/* 用户名 */
+.UserNameInput {
+	width: 600rpx;
+	box-flex:1;
+}
+/* 验证码 */
+.ver_code {
+	width: 600rpx;
+	box-flex: 1;
+	display: flex;
+	box-direction: row;
+	justify-content: space-between;
+} 
+/* 验证码输入框 */
+.ver_code input {	
+	box-flex: 2;
+}
+/* 获取验证码 */
+.ver_code button {
+	box-flex: 1;
+}
+/* 提交 */
+.Submit {
+	line-height: 1.4rem;
+}
+/* 输入框中的占位符 */
+.input-placeholder {
+	font-size: 26rpx;
+	margin-left: 10rpx;
+	color: #bbb;
+}
+.section view {
+	display: flex;
+	flex-direction: row;
+}

@@ -1,0 +1,81 @@
+<!-- *****************************
+     *******detail.wxml********
+     *******作者：姚星如*********
+     *****修改时间：2017/5/18***** -->
+
+<view class="container">
+	<view class="father">
+		<view class="son1">
+			<view class="box1">
+				<image style="width: 100rpx; height: 100rpx; border-radius: 6rpx;" mode="scaleToFill" src="../../images/01.jpg" binderror="" bindload=""></image>
+			</view>
+			<view class="box2">
+				<text class="username">用户名</text>
+				<view>
+					<!-- 如果是女，则显示女士图标，如果是男，则显示男士图标 -->
+					<image style="width: 30rpx;height: 30rpx;" mode="scaleToFill" src="../../images/02.png" binderror="" bindload=""></image>
+					<image style="width: 30rpx;height: 30rpx;" mode="scaleToFill" src="../../images/03.png" binderror="" bindload=""></image>
+					<!-- 获取用户输入的寝室苑信息 -->
+				</view>
+			</view>
+			<view class="box3">
+			    <!-- 获取时间 -->
+				<text class="time">10分钟前</text>
+				<view>帮</view>
+			</view>					
+		</view>
+		<view class="son2">
+			<view class="son2_box1">
+				<image style="width: 40rpx; height: 40rpx;" mode="scaleToFill" src="../../images/06.png" binderror="" bindload=""></image>
+				<!-- 获取需求 -->
+				<text>需求:三食堂三楼咖喱饭不加酸菜</text>
+			</view>
+			<view class="son2_box2">
+				<image style="width: 40rpx; height: 40rpx;" mode="scaleToFill" src="../../images/05.png" binderror="" bindload=""></image>
+				<!-- 获取目的地 -->
+				<text>目的地：雅风苑B栋425</text>
+			</view>
+			<!-- 进度条和进度条文字 -->
+			<view class="son2_box3">
+				<!-- 进度条 -->
+				<view class="son2_box3_1">
+					<view class="pro1 active"></view>
+					<view class="pro2 active">1</view>
+					<view class="pro3"></view>
+					<view class="pro2">2</view>
+					<view class="pro3"></view>
+					<view class="pro2">3</view>
+					<view class="pro3"></view>
+					<view class="pro2">4</view>
+					<view class="pro4"></view>
+				</view>
+				<!-- 进度条文字 -->
+				<view class="son2_box3_2">
+					<text class="active_text">新发布</text>
+					<text>被抢啦</text>
+					<text>已送达</text>
+					<text>已结单</text>
+				</view>
+			</view>
+		</view>
+		<scroll-view class="son3" scroll-y="true">
+			<!-- 评论框 -->
+			<view class="son3_box">
+				<view class="son3_user">
+					<view class="son3_username">用户名</view>
+					<view class="son3_time">10分钟前提问</view>
+				</view>
+				<view class="son3_comm">
+					你好，请问雅风苑怎么走呢？
+				</view>
+				<view class="son3_user">
+					<text class="son3_username">用户名</text>
+					<text class="son3_time">10分钟前回复</text>				
+				</view>
+				<view class="son3_comm">
+					沿着三食堂走过来就到了
+				</view>				
+            </view>
+		</scroll-view>
+	</view>
+</view>

@@ -1,0 +1,29 @@
+<!-- *****************************
+     *******login.wxml********
+     *******作者：姚星如*********
+     *****修改时间：20.7/5/18***** -->
+
+<view class="container">
+	<form action="#">
+		<!-- 用户名 -->
+		<view class="UserNameInput">
+			<input type="number" placeholder="请输入手机号码" maxlength="11"  />
+		</view>	
+		<!-- 密码 -->
+		<view>
+			<input type="number" placeholder="密码" />
+		</view>
+		<!-- 复选框 -->
+		<view  class="checkbox" >
+			<checkbox-group>
+				<label><checkbox checked/>已同意</label>
+			</checkbox-group>
+		</view>
+		<button type="primary" form-type="submit" class="Submit">提交</button>
+	</form>
+	<!-- 提示文字 -->
+	<view class="reminder">
+		没账号？<navigator url="#" hover-class="navigator-hover" redirect>注册</navigator>
+		忘记密码？
+	</view>
+</view>
